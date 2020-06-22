@@ -17,10 +17,12 @@ Initially, the stack only contains ROOT, the dependencies list is empty, and the
 	- We use one hidden layer with 200 nodes and ReLU activation function
 	- The final output layer has 3 nodes (SHIFT, LEFT-ARC and RIGHT-ARC)
 
-The predictions are computed as 
+The predictions are computed as
+
 <img src="./Images/nn_predictions.png"/>
 
 where **h** is the hidden layer, **l** are the logits of the output layer and $\hat{y}$ are the probabilities. The model minimizes the cross-entropy loss
+
 <img src="./Images/cross_entropy.png"/>
 
 To train the neural network model and compute the predictions on the test data from Penn Treebank (annotated with Universal Dependencies)
