@@ -21,7 +21,7 @@ The predictions are computed as
 
 <img src="./Images/nn_predictions.png"/>
 
-where **h** is the hidden layer, **l** are the logits of the output layer and $\hat{y}$ are the probabilities. The model minimizes the cross-entropy loss
+where **h** is the hidden layer, **l** are the logits of the output layer and $^{y}$ are the probabilities. The model minimizes the cross-entropy loss
 
 <img src="./Images/cross_entropy.png"/>
 
